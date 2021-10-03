@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import NavBar from './components/NavBar';
-import Section from './components/Section';
 import Links from './components/Links';
+import Section from './components/Section';
 import './App.css';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
@@ -12,32 +12,26 @@ function App() {
   const [currentPage, setCurrentPage] = useState('AboutMe');
 
   const renderPage = () => {
-    switch (currentPage) {
-      case 'AboutMe' :
-        return <AboutMe />;
-        break;
-      case 'Portfolio' :
-        return <Portfolio />;
-        break;
-      case 'Contact' :
-        return <Contact />;
-        break;
-      case 'Resume' :
-        return <Resume />;
-        break;
-      default:
-        return <AboutMe />;
-        break;
-
-    }
+   if (currentPage === 'AboutMe') {
+     return <AboutMe />
+   }
+   if (currentPage === 'Portfolio') {
+    return <Portfolio />
   }
-  const handlePageChange = (page) => setCurrentPage;
+  if (currentPage === 'Contact') {
+    return <Contact />
+  }
+  if (currentPage === 'Resume') {
+    return <Resume />
+  }
+
+  }
+  const handlePageChange = (page) => setCurrentPage(page);
   
   return (
     <>
-    <NavBar />
-    <Section currentPage={currentPage} handlePageChange={handlePageChange}/>
-    {renderPage()}
+    <NavBar currentPage={currentPage} handlePageChange={handlePageChange}/>
+    <Section currentPage={renderPage()} />
     <Links />
     </>
   )

@@ -49,6 +49,8 @@ padding: 15px;
 }
 
 .icon{
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
+  border: 5px solid whitesmoke;
+  border-radius: 2pc;
 }
