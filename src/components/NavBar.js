@@ -5,7 +5,7 @@ export default function NavBar(selectedPage, handlePageChange){
     return (
         <div className="App">
             <nav className="App-header">
-            <h1 className="name">Lauren Rowe </h1>
+            <h1 className="name">Lauren Rowe</h1>
                 <ul>
                 <li><a href= "AboutMe" className="App-link" onClick={() => handlePageChange('AboutMe')}>About Me</a></li>
                 <li><a href= "Portfolio" className="App-link" onClick={() => handlePageChange('Portfolio')}>Portfolio</a></li>

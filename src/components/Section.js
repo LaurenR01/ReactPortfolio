@@ -6,11 +6,12 @@ import Resume from "./Resume";
 
 
 export default function Section() {
-  
-    return (
+  const setPage = () => {
+  }
+   return (
      <div className="App">
          <p className="App-section">
-             Current Page
+
         </p>
     </div>
     )
