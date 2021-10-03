@@ -31,7 +31,7 @@ function App() {
   return (
     <>
     <NavBar currentPage={currentPage} handlePageChange={handlePageChange}/>
-    <Section currentPage={renderPage()} />
+    <Section renderPage={renderPage} />
     <Links />
     </>
   )
