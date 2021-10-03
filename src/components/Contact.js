@@ -4,11 +4,7 @@ export default function Contact() {
 
     return (
         <div>
-            <form action="mailto:laurenrowe01@gmail.com" 
-            method="POST" 
-            enctype="multipart/form-data"
-            name="EmailForm"
-            subject="Portfolio Contact Form">
+            <form>
                 <input type="text" size="30" name="ContactName">Name:</input>
                 <br></br>
                 <input type="text" size="45" name="ContactEmail">Email</input>
