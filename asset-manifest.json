@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.5a09cd90.chunk.css",
+    "main.js": "/ReactPortfolio/static/js/main.9000d7b5.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.9000d7b5.chunk.js.map",
+    "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.bcdf2ad6.js",
+    "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.bcdf2ad6.js.map",
+    "static/js/2.4c2c2caa.chunk.js": "/ReactPortfolio/static/js/2.4c2c2caa.chunk.js",
+    "static/js/2.4c2c2caa.chunk.js.map": "/ReactPortfolio/static/js/2.4c2c2caa.chunk.js.map",
+    "index.html": "/ReactPortfolio/index.html",
+    "static/css/main.5a09cd90.chunk.css.map": "/ReactPortfolio/static/css/main.5a09cd90.chunk.css.map",
+    "static/js/2.4c2c2caa.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.4c2c2caa.chunk.js.LICENSE.txt",
+    "static/media/Lauren.fc6e6bf3.jpg": "/ReactPortfolio/static/media/Lauren.fc6e6bf3.jpg",
+    "static/media/Resume.c3eaadb3.pdf": "/ReactPortfolio/static/media/Resume.c3eaadb3.pdf",
+    "static/media/mailicon.592edb2f.png": "/ReactPortfolio/static/media/mailicon.592edb2f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcdf2ad6.js",
+    "static/js/2.4c2c2caa.chunk.js",
+    "static/css/main.5a09cd90.chunk.css",
+    "static/js/main.9000d7b5.chunk.js"
+  ]
+}
