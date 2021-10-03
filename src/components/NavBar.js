@@ -1,19 +1,17 @@
 import React from 'react';
-import AboutMe from "./AboutMe";
-import Portfolio from "./Portfolio";
-import Contact from "./Contact";
-import Resume from "./Resume";
-import './NavBar.css'
+import '../App.css'
 
-export default function NavBar(){
+export default function NavBar(selectedPage, handlePageChange){
     return (
-        <div>
-            <nav>
-                <h1>Lauren Rowe </h1>
-                <a href= {AboutMe}>About Me</a>
-                <a href= {Portfolio}>Portfolio</a>
-                <a href= {Contact}>Contact</a>
-                <a href= {Resume}>Resume</a>
+        <div className="App">
+            <nav className="App-header">
+            <h1 className="name">Lauren Rowe </h1>
+                <ul>
+                <li><a href= "AboutMe" className="App-link" onClick={() => handlePageChange('AboutMe')}>About Me</a></li>
+                <li><a href= "Portfolio" className="App-link" onClick={() => handlePageChange('Portfolio')}>Portfolio</a></li>
+                <li><a href= "Contact"className="App-link" onClick={() => handlePageChange('Contact')}>Contact</a></li>
+                <li><a href= "Resume" className="App-link" onClick={() => handlePageChange('Resume')}>Resume</a></li>
+                </ul>
             </nav>
         </div>
     )
